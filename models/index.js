@@ -17,7 +17,7 @@ User.hasMany(Entry, {
 
 // Entry has many comments
 Entry.hasMany(Comment, {
-    foreignKey: 'entry',
+    foreignKey: 'entry_id',
     onDelete: 'CASCADE'
 });
 
