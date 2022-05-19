@@ -1,10 +1,10 @@
 const router = require('express').Router();
-const { User, Sleep, Tag } = require('../../models');
+const { User, Entry, Comment } = require('../../models');
 
 // create GET route for getting all users
 router.get('/', async (req, res) => {
     try {
-        const userData = await User.findAll({
+        const userData = await User.findAll({ 
             attributes: {
                 exclude: ['password']
             }
