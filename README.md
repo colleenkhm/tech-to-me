@@ -10,7 +10,7 @@ A web forum for individuals to post and engage with information/advice about tec
  - Node
     - Express
     - Handlebars
- - MYSQL
+ - MySQL
     - sequelize
     - bcrypt
 
